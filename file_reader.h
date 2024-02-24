@@ -1,7 +1,3 @@
-//
-// Created by maks on 23.12.23.
-//
-
 #ifndef PROJECT1_FILE_READER_H
 #define PROJECT1_FILE_READER_H
 
@@ -100,7 +96,6 @@ int dir_read(struct dir_t *pdir, struct dir_entry_t *pentry);
 
 int dir_close(struct dir_t *pdir);
 
-//3030
 
 
 #endif //PROJECT1_FILE_READER_H

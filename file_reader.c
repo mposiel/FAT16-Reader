@@ -1,7 +1,3 @@
-//
-// Created by maks on 23.12.23.
-//
-
 #include "file_reader.h"
 #include <errno.h>
 #include <stdio.h>
@@ -9,16 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
-
-
-#include "tested_declarations.h"
-#include "rdebug.h"
-#include "tested_declarations.h"
-#include "rdebug.h"
-#include "tested_declarations.h"
-#include "rdebug.h"
-#include "tested_declarations.h"
-#include "rdebug.h"
 
 
 int bits_per_fat_entry = (245904 % 2 == 1) ? 12 : 16;
@@ -53,8 +39,6 @@ struct disk_t *disk_open_from_file(const char *volume_file_name) {
     fread(&(disk->bytes_per_sector), sizeof(uint16_t), 1, f);
     fseek(f, 0, SEEK_SET);
 
-//    printf("\n\n%d\n\n", disk->num_of_sectors);
-//    printf("\n\n%d\n\n", disk->bytes_per_sector);
     return disk;
 }
 

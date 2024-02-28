@@ -1,7 +1,7 @@
 # Project: FAT File System Reader
 
 ### Overview
-This project is a C implementation for reading and interacting with FAT file systems. It provides functionalities to open disk images, read files and directories, seek within files, and close opened resources.
+This project is a C implementation for reading and interacting with FAT file systems. It provides functionalities to open disk images, read files and directories, seek within files, and close opened resources. This project was made as part of my Operating Systems 2 course.
 
 ### Files
 - **file_reader.h**: Header file containing struct definitions and function prototypes.
